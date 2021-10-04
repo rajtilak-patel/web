@@ -1,0 +1,179 @@
+
+/* -----------------------------------media quiry use for resoponsive design for mobile ---------------------  */
+html{
+    width: 100%;
+}
+#navbar{
+    height: 100vh;
+    width: 0px;
+}
+#navbar .items {
+    padding: 0rem 5rem;
+    }
+
+#navbar .head{
+        display: none;
+        padding: 2rem 3.5rem;
+        font-size: 2rem;
+        font-weight: bolder;
+        color: rgb(26, 16, 16);
+    }
+#navbar .btn{
+    margin: 3rem 6rem;
+}
+
+
+ 
+/* -------------------------------------hambargur icon code -------------------------------------------- */
+
+ #menu{
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    z-index: 100;
+    /* background-color: white; */
+} 
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(231, 86, 86);
+    display: block;
+    border-radius: 5px;
+    transition: .3s ease;
+    z-index: 100;
+}
+#bar1{
+    transform: translateY(-4px);
+    z-index: 100;
+}
+#bar3{
+    transform: translateY(4px);
+    z-index: 100;
+}
+.icon .bar{
+    background-color:  rgb(231, 86, 86);
+    
+}
+.icon #bar1{
+    transform: translateY(4px) rotate(-45deg);
+    
+}
+.icon #bar3{
+    transform: translateY(-6px) rotate(45deg);
+   
+}
+.icon #bar2{
+   opacity: 0;
+}
+.items {
+    display: none;
+}
+.change{
+    height: 100vh;
+    position: absolute;
+    font-size: 1.8rem;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+    background-color: tomato;
+}
+#section{
+    width: 40rem;
+    height: 30%;
+}
+#section .word h1{
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    width: 112vw;
+}
+#section .word{
+    height: 4vh;
+    width: 90%;
+}
+#section .word  p{
+    padding: 0rem 0rem;
+    margin: 78rem 1rem;
+    height: 1vh;
+    width: 5vw;
+    background-color: rgb(117, 88, 88);
+    display: none;
+
+}
+.img{
+    margin-top: 0;
+    flex-wrap: wrap;
+    height: 104vh;
+    width: 100%;
+} 
+.image1 {
+    margin: 0px;
+    /* width: 63%; */
+    height: 50px;
+}
+.main_div{
+    width: 15vw;
+    margin: 7rem 5rem ;
+}
+.music_container{
+    
+    width: 13rem;
+    height: 18rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+    /* padding: 1rem; */
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.container{
+    display: none;
+}
+#lorem{
+    display: block;
+   
+}
+#lorem h2{
+    padding: 1.5rem 14rem;
+    font-size: 2rem;
+    
+}
+.line{
+    display: block;
+}
+.line p{
+    padding: 3rem 10rem;
+    
+}
+.imgcart{
+    display: block;
+    width: 11vw;
+    height: 10vh;
+    margin-top: -4.5rem;
+    margin-left: 30rem;
+    border-radius: none;
+    cursor: pointer;
+    
+}
+.imgcart img{
+    border: none;
+    border-radius: 0%;
+    
+}
+
+
+
+
+
+
+
+ 
